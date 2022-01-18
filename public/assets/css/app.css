@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar hr {
+    display: none;
+}
+
+.barter-bage-color {
+    background-color: #36572A;
+}
+
+.barter-bage-color-darker {
+    background-color: #2b501e;
+}
+
+.barter-bage-color-text, .title-cta span {
+    color: #36572A;
+}
+
+.btn-link:hover {
+    color: #0d6efd;
+}
+
+.barter-bage-color:hover {
+    background-color: #2b501e;
+}
+
+.barter-bage-color-darker:hover {
+    background-color: #244218;
+}
+
+.navbar .btn-hover, .navbar .barter-bage-color {
+    transition: .5s;
+}
+
+.btn-hover:hover {
+    background-color: rgb(236, 236, 236);
+}
+
+.btn-active {
+    border: 1px solid rgb(214, 214, 214);
+    background-color: rgb(245, 245, 245) !important;
+}
+
+.title-cta {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.home-img {
+    width: 450px;
+}
+
+.admin-image {
+    width: 600px;
+}
+
+.auth-form, .card-form {
+    width: 32rem;
+}
+
+.card-detail {
+    width: 40rem;
+}
+
+.image_garbage {
+    width: 32rem;
+}
+
+.image_groceries {
+    width: 300px;
+}
+
+.tab-link {
+    color: black;
+}
+
+.tab-link:hover {
+    color: black;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+.left-side {
+    padding-right: 16px;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.right-side {
+    padding-left: 16px;
+}
+
+.dashboard-jumbotron {
+    background-color: #36572A;
+    background-image: url('../../assets/img/icon/dashboard-background.png');
+    background-repeat: no-repeat;
+}
+
+.pagination a {
+    color: black;
+}
+
+.pagination a:hover {
+    color: black;
+}
+
+.pagination .active {
+    background-color: #36572A;
+}
+
+.detail-btn {
+    width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+    .left-side, .right-side {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .card-sembako {
+        margin-top: 16px;
+    }
+
+    .btn-action {
+        text-align: center;
+        width: 100%;
+    }
+
+    .btn-warning.btn-action, .btn-secondary.btn-action {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        margin-left: 0 !important;
+        gap: 0 !important;
+    }
+
+    .navbar hr {
+        display: block;
+        border: 0.5px solid rgb(116, 116, 116);
+    }
+
+    .navbar-nav .barter-bage-color {
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
+
+    .title-cta {
+        font-size: 32px;
+    }
+
+    .home-img {
+        display: none;
+    }
+
+    .auth-form, .card-form, .card-detail, .image_garbage, .admin-image, .image_groceries {
+        width: 100%;
+    }
+
+    .bottom-footer {
+        text-align: center;
+    }
+
+    .top-footer .col-md-2 {
+        margin-top: 16px;
+    }
+
+    .detail-btn {
+        width: 100%;
+    }
+}
